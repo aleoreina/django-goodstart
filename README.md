@@ -23,6 +23,9 @@ Contributors are so welcome. While his changes open the doors to the developers 
 # Packages that we are using?
 `Please check file req.txt`
 
+# Additional files packages / added:
+- Project.sh from [Github: Project.sh](https://github.com/aleoreina/projectsh-django "Github: Project.sh") - Lets run server, make migrations, migrate and install packages easy 123.
+
 # Summary of Features
 	* Users module to let start the project with a solid and basic structure of a profile for a project which expand the django default project.
 
