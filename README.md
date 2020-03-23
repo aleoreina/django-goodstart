@@ -32,9 +32,12 @@ Contributors are so welcome. While his changes open the doors to the developers 
 # Technical Peception:
 - Modules:
 	* Users
+	* SimplePages
 
 
 #####  Module: Users
+
+Basically, Module who manage users of the webapp.
 
 - Fields :
 	+ (From Class AbstractUser ) last_login, is_superuser, username, first_name, last_name, is_staff, is_active, date_joined, email. 
@@ -43,6 +46,11 @@ Contributors are so welcome. While his changes open the doors to the developers 
 > Advantage of up: 
 1) You start your project with the basis elements to a profile of a user in same table.
 2) Admin panel show properly each of field offered. We can set if  active, staff, superuser and show properly not editable date_joined and last_login.
+
+
+#####  Module: SimplePages
+
+Basically, Module who manage basic pages like "Home, FAQ, Privacy, Terms, Blog" and others. Just simplepages
 
 # License
 Studying which one.
