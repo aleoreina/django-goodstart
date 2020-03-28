@@ -1,3 +1,9 @@
-*.cpython-36.pyc
-./webapp/node_modules/*
-./webapp/staticfiles/*
+*.pyc
+*.log
+*.lock
+*.sqlite3
+*.db.*
+webapp/node_modules/*
+webapp/static/*
+webapp/staticfiles/*
+migrations/
