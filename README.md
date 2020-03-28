@@ -53,8 +53,7 @@ Basically, Module who manage users of the webapp.
 Basically, Module who manage basic pages like "Home, FAQ, Privacy, Terms, Blog" and others. Just simplepages
 
 # License
-Studying which one.
-Accepted suggestions.
+GNU : Please read file LICENSE
 
 
 
