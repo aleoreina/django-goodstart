@@ -2,6 +2,7 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import models as auth_models
+from datetime import date
 
 class UserManager(auth_models.BaseUserManager):
   
@@ -54,17 +55,7 @@ class User(AbstractUser):
 
     def get_age(self):
         today = date.today()
-
-        try:
-            birthday = self.dob.replace(year=today.year)
-        # raised February 29
-        except ValueError:
-            birthday = self.dob.replace(year=today.year, day=born.day-1)
-
-        if birthday > today:
-            return today.year - born.year - 1
-        else:
-            return today.year - born.year
+        return today.year - self.dob.year - ((today.month, today.day) < (self.dob.month, self.dob.day))
 
     def __unicode__(self):
         return u'{0} ({1})'.format(self.get_full_name(), self.email)
