@@ -1,1 +1,3 @@
 *.cpython-36.pyc
+./webapp/node_modules/*
+./webapp/staticfiles/*
