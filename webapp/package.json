@@ -1,0 +1,14 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "webapp to start a base project in django.",
+  "main": "index.js",
+  "repository": "https://github.com/aleoreina/django-goodstart",
+  "author": "Angel Reina (@aleoreina)",
+  "license": "MIT",
+  "private": "false",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "4.4.1"
+  }
+}
