@@ -1,0 +1,46 @@
+[
+   {
+      "model":"simplepages.page",
+      "pk":1,
+      "fields":{
+         "created_on": "2020-03-29 00:00:00",
+         "updated_on": "2020-03-29 00:00:00",
+      "title":"About US",
+	   "slug" : "about-us",
+      "content":"Your About US content page."
+      }
+   },
+   {
+      "model":"simplepages.page",
+      "pk":2,
+      "fields":{
+         "created_on": "2020-03-29 00:00:00",
+         "updated_on": "2020-03-29 00:00:00",
+      "title":"Terms of Use",
+	   "slug" : "terms-of-use",
+      "content":"Your Terms of Use content page."
+      }
+   },
+   {
+      "model":"simplepages.page",
+      "pk":3,
+      "fields":{
+         "created_on": "2020-03-29 00:00:00",
+         "updated_on": "2020-03-29 00:00:00",
+      "title":"Privacy",
+	   "slug" : "privacy",
+      "content":"Your Privacy content page."
+      }
+   },
+   {
+      "model":"simplepages.page",
+      "pk":4,
+      "fields":{
+         "created_on": "2020-03-29 00:00:00",
+         "updated_on": "2020-03-29 00:00:00",
+      "title":"Contact US",
+	   "slug" : "contact-us",
+      "content":"Your Contact US content page."
+      }
+   }
+]
