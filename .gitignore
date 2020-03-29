@@ -4,6 +4,6 @@
 *.sqlite3
 *.db.*
 webapp/node_modules/*
-webapp/static/*
+webapp/static/bower_components/*
 webapp/staticfiles/*
 migrations/
