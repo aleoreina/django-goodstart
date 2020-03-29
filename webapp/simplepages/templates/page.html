@@ -1,0 +1,20 @@
+{% extends "template/base.html" %} {% block title %} {{ object.title }} {% endblock %}
+{% load static %} 
+
+{% block content %}
+
+
+<div class="row d-flex justify-content-center">
+
+  <!--Grid column-->
+  <div class="col-md-10">
+    <h1 class="text-center">{{ object.title }}</h1>
+    <hr>
+    <p>{{ object.content }}</p>
+  </div>
+  <!--Grid column-->
+
+</div>
+
+
+{% endblock %}
