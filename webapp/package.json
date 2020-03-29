@@ -9,6 +9,8 @@
   "private": "false",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
-    "bootstrap": "4.4.1"
+    "bootstrap": "4.4.1",
+    "jquery": "^3.4.1",
+    "simple-line-icons": "^2.4.1"
   }
 }
