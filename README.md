@@ -20,9 +20,11 @@ Contributors are so welcome. While his changes open the doors to the developers 
 # Requirements
 `Python 3.6.5`
 
-`Django 3.0`
+`Django 3.0.4`
 
 `pyenv (or any virtual env compatible)`
+
+`Yarn`
 
 # Packages that we are using?
 `Please check file req.txt`
