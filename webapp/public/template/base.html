@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title> {% block title %}{% endblock %} | {{ app_name }} </title>
+  <title> {% block title %} {% endblock %} | {{ app_name }} </title>
 
   <!-- Bootstrap core CSS -->
   <link href="{% static 'bower_components/bootstrap/dist/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -34,7 +34,9 @@
       <li class="nav-item"><a class="nav-link" href="#"> Contact us </a></li>
       <li class="nav-item"><a class="nav-link" href="terms-of-use"> Terms of use </a></li>
       <li class="nav-item"><a class="nav-link" href="privacy"> Privacy </a></li>
-     <!-- <li class="nav-item dropdown">
+      <li class="nav-item"><a class="nav-link" href="{%url 'blog:post_list'%}"> Blog </a></li>
+
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">  FAQ  </a>
           <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
@@ -86,6 +88,10 @@
             <li class="list-inline-item">&sdot;</li>
             <li class="list-inline-item">
               <a href="privacy">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">&sdot;</li>
+            <li class="list-inline-item">
+              <a href="{%url 'blog:post_list'%}">Blog</a>
             </li>
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">&copy; {{ app_name }} 2020. All Rights Reserved.</p>

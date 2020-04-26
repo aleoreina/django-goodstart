@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import string 
+import random 
 
 APP_NAME = "My app"
 
